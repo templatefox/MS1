@@ -15,7 +15,7 @@ if (php_sapi_name() === 'cli-server') {
     if (__FILE__ !== $path && is_file($path)) {
         return false;
     }
-    unset($path);
+    unset($path);v  
 }
 
 // Composer autoloading
